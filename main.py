@@ -74,15 +74,15 @@ option = st.selectbox(
 #layout
 
 # Add a select box to the sidebar:
-#add_selectbox= st.sidebar.selectbox(
- #   'how would you like to be contacted?',
-  #  ('Email','Home phone','mobile phone')
-#)
+add_selectbox= st.sidebar.selectbox(
+    'how would you like to be contacted?',
+    ('Email','Home phone','mobile phone')
+)
 #add a slider to the sidebar:
-#add_slider = st.sidebar.slider(
-#    'select a range of values',
-#    0.0, 100.0, (25.0, 75.0)
-#)
+add_slider = st.sidebar.slider(
+    'select a range of values',
+    0.0, 100.0, (25.0, 75.0)
+)
 
 left_column, right_column = st.columns(2)
 #you can use a column just like st.sidebar:
